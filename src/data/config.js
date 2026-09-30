@@ -1,35 +1,39 @@
 export const siteConfig = {
   brand: {
     name: 'NovaMédica',
-    slogan: 'ATENCIÓN INTEGRAL · MIAMI, FL',
+    slogan: 'ATENCIÓN INTEGRAL · MADRID, ES'
+  },
+  accessibility: {
+    navigationLabel: 'Navegación principal'
   },
   navigation: [
-    { label: 'Inicio', href: '#inicio' },
-    { label: 'Especialidades', href: '#especialidades' },
-    { label: 'Equipo Médico', href: '#equipo' },
-    { label: 'Instalaciones', href: '#instalaciones' },
-    { label: 'Contacto', href: '#contacto' }
+    { href: '#inicio', label: 'Inicio' },
+    { href: '#especialidades', label: 'Especialidades' },
+    { href: '#equipo', label: 'Equipo Médico' },
+    { href: '#instalaciones', label: 'Instalaciones' },
+    { href: '#contacto', label: 'Contacto' }
   ],
+  
   hero: {
     content: {
+      badge: 'CLÍNICA MÉDICA PREMIUM',
       heading: 'Tu salud en manos de especialistas de primer nivel.',
-      description: 'Ofrecemos atención médica preventiva y especializada con equipos de última generación y un enfoque humano centrado en tu bienestar en el corazón de Miami.',
-      actions: [
-        { label: 'Agendar Cita', primary: true, href: '#contacto' },
-        { label: 'Portal del Paciente', primary: false, href: '#portal' }
-      ],
-      metrics: [
-        { value: '25+', label: 'Especialidades' },
-        { value: '15k+', label: 'Pacientes' },
-        { value: '24/7', label: 'Urgencias' }
-      ],
+      description: 'Ofrecemos atención médica preventiva y especializada con equipos de última generación y un enfoque humano centrado en tu bienestar en el corazón del Barrio de Salamanca, Madrid.',
+      primaryButton: { label: 'Agendar Cita', href: '#contacto' },
+      secondaryButton: { label: 'Portal del Paciente', href: '#portal' },
       image: {
-        url: 'https://images.unsplash.com/photo-1638202993928-7267aad84c31?q=85&w=1200',
-        alt: 'Equipo médico de NovaMédica',
-        caption: 'Brickell Medical Center · Miami'
-      }
+        url: 'https://images.unsplash.com/photo-1551076805-e18690c5e561?q=85&w=1200', 
+        alt: 'Doctora con estetoscopio revisando paciente',
+        caption: 'Centro Médico Salamanca · Madrid'
+      },
+      stats: [
+        { value: 25, label: 'ESPECIALIDADES', suffix: '+' },
+        { value: 15, label: 'PACIENTES', suffix: 'k+' },
+        { value: 24, label: 'URGENCIAS', suffix: '/7' }
+      ]
     }
   },
+
   specialties: {
     eyebrow: 'NUESTRAS ESPECIALIDADES',
     heading: 'Atención médica integral y multidisciplinaria',
@@ -60,10 +64,11 @@ export const siteConfig = {
       {
         name: 'Dra. Sofía Carter',
         role: 'Médico Internista',
-        image: 'https://images.unsplash.com/photo-1527613426441-4da17471b66d?q=85&w=800',
+        image: 'https://images.unsplash.com/photo-1527613426441-4da17471b66d?q=85&w=800', // URL corregida
       }
     ]
   },
+
   facilities: {
     eyebrow: 'NUESTRAS INSTALACIONES',
     heading: 'Espacios diseñados para tu confort',
@@ -81,8 +86,8 @@ export const siteConfig = {
     heading: 'Estamos aquí para cuidar de ti',
     description: 'Comunícate con nosotros para programar tu visita o resolver cualquier duda médica. Nuestro equipo de atención al paciente está disponible 24/7.',
     details: [
-      { icon: 'MapPin', title: 'Ubicación', value: '1200 Brickell Ave, Miami, FL 33131' },
-      { icon: 'Phone', title: 'Línea de Atención', value: '+1 (305) 555-0198' },
+      { icon: 'MapPin', title: 'Ubicación', value: 'Calle de Velázquez 50, 28001 Madrid, España' },
+      { icon: 'Phone', title: 'Línea de Atención', value: '+34 91 555 0198' },
       { icon: 'Mail', title: 'Correo Electrónico', value: 'citas@novamedica.com' },
       { icon: 'Clock', title: 'Horario', value: 'Urgencias 24/7 · Consultas 8am - 8pm' }
     ],
@@ -91,23 +96,23 @@ export const siteConfig = {
       submitLabel: 'Enviar Mensaje'
     }
   },
+
   contact: {
     socialLinks: [
       { name: 'LinkedIn', icon: 'LinkedIn', href: 'https://linkedin.com' },
       { name: 'Instagram', icon: 'Instagram', href: 'https://instagram.com' },
+      { name: 'Facebook', icon: 'Facebook', href: 'https://facebook.com' }
     ]
   },
+
   footer: {
+    legalLinks: [
+      { label: 'Política de Privacidad', href: '#' },
+      { label: 'Términos de Servicio', href: '#' }
+    ],
     copyrightLabel: 'Todos los derechos reservados.',
     developerText: 'Desarrollado por',
     developerName: 'luisjcm',
-    developerUrl: 'https://luisjcm.com',
-    legalLinks: [
-      { label: 'Política de Privacidad HIPAA', href: '/privacidad' },
-      { label: 'Términos de Servicio', href: '/terminos' },
-    ]
-  },
-  accessibility: {
-    navigationLabel: 'Navegación principal',
+    developerUrl: 'https://luisjcm.com'
   }
-};
+}
