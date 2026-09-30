@@ -41,6 +41,29 @@ export const siteConfig = {
       { icon: 'Stethoscope', title: 'Medicina General', description: 'Atención primaria, chequeos preventivos y derivación oportuna a subespecialidades.' }
     ]
   },
+
+  team: {
+    eyebrow: 'NUESTRO EQUIPO',
+    heading: 'Especialistas a tu disposición',
+    description: 'Conoce al equipo de profesionales altamente capacitados que velarán por tu bienestar en cada paso de tu tratamiento.',
+    members: [
+      {
+        name: 'Dra. Elena Villalobos',
+        role: 'Directora Médica · Cardióloga',
+        image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=85&w=800',
+      },
+      {
+        name: 'Dr. Roberto Méndez',
+        role: 'Jefe de Neurología',
+        image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=85&w=800',
+      },
+      {
+        name: 'Dra. Sofía Carter',
+        role: 'Médico Internista',
+        image: 'https://images.unsplash.com/photo-1527613426441-4da17471b66d?q=85&w=800',
+      }
+    ]
+  },
   contact: {
     socialLinks: [
       { name: 'LinkedIn', icon: 'LinkedIn', href: 'https://linkedin.com' },
