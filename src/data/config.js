@@ -3,6 +3,13 @@ export const siteConfig = {
     name: 'NovaMédica',
     slogan: 'ATENCIÓN INTEGRAL · MIAMI, FL',
   },
+  navigation: [
+    { label: 'Inicio', href: '#inicio' },
+    { label: 'Especialidades', href: '#especialidades' },
+    { label: 'Equipo Médico', href: '#equipo' },
+    { label: 'Instalaciones', href: '#instalaciones' },
+    { label: 'Contacto', href: '#contacto' }
+  ],
   hero: {
     content: {
       heading: 'Tu salud en manos de especialistas de primer nivel.',
