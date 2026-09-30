@@ -1,8 +1,9 @@
 import Header from './layouts/Header'
 import Footer from './components/sections/Footer'
 
-import { siteConfig } from './data/config' // Añadidas las llaves
-import HeroMedical from './components/sections/HeroMedical' // Removidas las llaves
+import { siteConfig } from './data/config'
+import HeroMedical from './components/sections/HeroMedical' 
+import Specialties from './components/sections/Specialties'
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Header />
       <main>
         <HeroMedical content={siteConfig.hero.content} />
+        <Specialties content={siteConfig.specialties} />
       </main>
       <Footer />
     </div>

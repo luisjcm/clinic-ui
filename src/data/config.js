@@ -30,6 +30,17 @@ export const siteConfig = {
       }
     }
   },
+  specialties: {
+    eyebrow: 'NUESTRAS ESPECIALIDADES',
+    heading: 'Atención médica integral y multidisciplinaria',
+    description: 'Cubrimos todas las áreas de la salud con especialistas certificados para brindarte un diagnóstico preciso y tratamiento oportuno.',
+    items: [
+      { icon: 'Activity', title: 'Cardiología Avanzada', description: 'Evaluación cardiovascular integral, ecocardiogramas y pruebas de esfuerzo con monitoreo continuo.' },
+      { icon: 'Brain', title: 'Neurología Clínica', description: 'Diagnóstico y tratamiento de trastornos del sistema nervioso central y periférico.' },
+      { icon: 'Microscope', title: 'Laboratorio Clínico', description: 'Análisis de muestras con equipos automatizados para resultados precisos en tiempo récord.' },
+      { icon: 'Stethoscope', title: 'Medicina General', description: 'Atención primaria, chequeos preventivos y derivación oportuna a subespecialidades.' }
+    ]
+  },
   contact: {
     socialLinks: [
       { name: 'LinkedIn', icon: 'LinkedIn', href: 'https://linkedin.com' },
