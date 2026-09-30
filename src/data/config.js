@@ -64,6 +64,17 @@ export const siteConfig = {
       }
     ]
   },
+  facilities: {
+    eyebrow: 'NUESTRAS INSTALACIONES',
+    heading: 'Espacios diseñados para tu confort',
+    description: 'Contamos con consultorios modernos, quirófanos equipados con tecnología de punta y áreas de recuperación pensadas para tu máxima tranquilidad.',
+    images: [
+      { url: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=85&w=800', alt: 'Recepción y sala de espera moderna' },
+      { url: 'https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?q=85&w=800', alt: 'Quirófano equipado con tecnología' },
+      { url: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?q=85&w=800', alt: 'Pasillos y salas de recuperación' },
+      { url: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?q=85&w=800', alt: 'Laboratorio de análisis clínicos' }
+    ]
+  },
   contact: {
     socialLinks: [
       { name: 'LinkedIn', icon: 'LinkedIn', href: 'https://linkedin.com' },

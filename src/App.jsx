@@ -5,6 +5,7 @@ import { siteConfig } from './data/config'
 import HeroMedical from './components/sections/HeroMedical' 
 import Specialties from './components/sections/Specialties'
 import TeamMedical from './components/sections/TeamMedical'
+import Facilities from './components/sections/Facilities'
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <HeroMedical content={siteConfig.hero.content} />
         <Specialties content={siteConfig.specialties} />
         <TeamMedical content={siteConfig.team} />
+        <Facilities content={siteConfig.facilities} />
       </main>
       <Footer />
     </div>
