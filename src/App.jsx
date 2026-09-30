@@ -6,6 +6,7 @@ import HeroMedical from './components/sections/HeroMedical'
 import Specialties from './components/sections/Specialties'
 import TeamMedical from './components/sections/TeamMedical'
 import Facilities from './components/sections/Facilities'
+import ContactMedical from './components/sections/ContactMedical'
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Specialties content={siteConfig.specialties} />
         <TeamMedical content={siteConfig.team} />
         <Facilities content={siteConfig.facilities} />
+        <ContactMedical content={siteConfig.contactSection} />
       </main>
       <Footer />
     </div>

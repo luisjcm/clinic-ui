@@ -75,6 +75,22 @@ export const siteConfig = {
       { url: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?q=85&w=800', alt: 'Laboratorio de análisis clínicos' }
     ]
   },
+
+  contactSection: {
+    eyebrow: 'AGENDA TU CITA',
+    heading: 'Estamos aquí para cuidar de ti',
+    description: 'Comunícate con nosotros para programar tu visita o resolver cualquier duda médica. Nuestro equipo de atención al paciente está disponible 24/7.',
+    details: [
+      { icon: 'MapPin', title: 'Ubicación', value: '1200 Brickell Ave, Miami, FL 33131' },
+      { icon: 'Phone', title: 'Línea de Atención', value: '+1 (305) 555-0198' },
+      { icon: 'Mail', title: 'Correo Electrónico', value: 'citas@novamedica.com' },
+      { icon: 'Clock', title: 'Horario', value: 'Urgencias 24/7 · Consultas 8am - 8pm' }
+    ],
+    form: {
+      title: 'Solicitar Información',
+      submitLabel: 'Enviar Mensaje'
+    }
+  },
   contact: {
     socialLinks: [
       { name: 'LinkedIn', icon: 'LinkedIn', href: 'https://linkedin.com' },
