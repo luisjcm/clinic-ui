@@ -15,15 +15,15 @@ export default function Footer() {
   const year = new Date().getFullYear()
 
   return (
-    <footer className="bg-[#0f172a] text-white">
+    <footer className="bg-teal-950 text-white">
       <div className="mx-auto max-w-7xl px-5 py-12 sm:px-8 lg:px-12">
         
         {/* Contenedor Principal: 2 columnas en móvil, 4 en desktop */}
         <div className="grid grid-cols-2 gap-x-4 gap-y-10 border-b border-white/15 pb-10 md:grid-cols-4 lg:gap-12">
           
-          {/* Columna 1: Marca y Redes (Ocupa 2 columnas en móvil y 2 en desktop) */}
+          {/* Columna 1: Marca y Redes */}
           <div className="col-span-2 flex flex-col items-center md:items-start text-center md:text-left">
-            <a className="font-serif text-3xl leading-none mb-8" href="#inicio">
+            <a className="font-sans font-bold text-3xl leading-none mb-8" href="#inicio">
               {siteConfig.brand.name}
             </a>
 
@@ -34,7 +34,7 @@ export default function Footer() {
                   <li key={social.name}>
                     <a
                       aria-label={social.name}
-                      className="flex h-10 w-10 items-center justify-center border border-white/20 text-white/75 transition-colors hover:border-white hover:text-white"
+                      className="flex h-10 w-10 items-center justify-center border border-white/20 text-white/75 transition-colors hover:border-teal-400 hover:text-teal-400"
                       href={social.href}
                       rel="noreferrer"
                       target="_blank"
@@ -47,7 +47,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Columna 2: Navegación (Ocupa 1 columna) */}
+          {/* Columna 2: Navegación */}
           <div className="col-span-1 flex flex-col items-start">
             <h3 className="mb-5 text-xs font-bold uppercase tracking-wider text-white">
               Explorar
@@ -56,7 +56,7 @@ export default function Footer() {
               <ul className="flex flex-col items-start gap-3">
                 {siteConfig.navigation.map((item) => (
                   <li key={item.href}>
-                    <a className="text-sm text-white/70 transition-colors hover:text-white" href={item.href}>
+                    <a className="text-sm text-white/70 transition-colors hover:text-teal-400" href={item.href}>
                       {item.label}
                     </a>
                   </li>
@@ -65,7 +65,7 @@ export default function Footer() {
             </nav>
           </div>
 
-          {/* Columna 3: Legal (Ocupa 1 columna) */}
+          {/* Columna 3: Legal */}
           <div className="col-span-1 flex flex-col items-start">
             <h3 className="mb-5 text-xs font-bold uppercase tracking-wider text-white">
               Legal
@@ -73,7 +73,7 @@ export default function Footer() {
             <ul className="flex flex-col items-start gap-3">
               {siteConfig.footer.legalLinks.map((link) => (
                 <li key={link.href}>
-                  <a className="text-sm text-white/70 transition-colors hover:text-white" href={link.href}>
+                  <a className="text-sm text-white/70 transition-colors hover:text-teal-400" href={link.href}>
                     {link.label}
                   </a>
                 </li>
@@ -94,7 +94,7 @@ export default function Footer() {
               href={siteConfig.footer.developerUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium text-white transition-colors hover:underline"
+              className="font-medium text-white transition-colors hover:text-teal-400 hover:underline"
             >
               {siteConfig.footer.developerName}
             </a>
